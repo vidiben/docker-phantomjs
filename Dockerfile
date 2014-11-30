@@ -9,7 +9,7 @@ RUN tar xvf phantomjs-1.9.8-linux-x86_64.tar.bz2
 RUN mv phantomjs-1.9.8-linux-x86_64/bin/phantomjs /usr/local/bin/
 RUN rm -rf phantom*
 
-RUN mkdir -p /phantomjs
-WORKDIR /phantomjs
+RUN mkdir -p /home/phantomjs
+WORKDIR /home/phantomjs
 
 ENTRYPOINT ["phantomjs", "script.js"]
