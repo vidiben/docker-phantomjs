@@ -1,4 +1,4 @@
-# Phantomjs in docker
+# Phantomjs in a box
 
 Phantomjs 1.9.8
 
