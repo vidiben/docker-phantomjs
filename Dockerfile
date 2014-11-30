@@ -12,4 +12,4 @@ RUN rm -rf phantom*
 RUN mkdir -p /phantomjs
 WORKDIR /phantomjs
 
-ENTRYPOINT ["phantomjs"]
+ENTRYPOINT ["phantomjs", "script.js"]
